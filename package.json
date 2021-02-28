@@ -33,5 +33,11 @@
   "bugs": {
     "url": "https://github.com/HatScripts/circle-flags/issues"
   },
-  "homepage": "https://github.com/HatScripts/circle-flags#readme"
+  "homepage": "https://github.com/HatScripts/circle-flags#readme",
+  "dependencies": {
+    "svgexport": "^0.4.1"
+  },
+  "scripts": {
+    "png": "node png.js"
+  }
 }
