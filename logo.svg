@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
   <defs>
     <clipPath id="flag-clip">
-      <rect y="0" x="9.99" height="48" width="32" />
+      <rect y="0" x="9.99" height="48" width="28" />
     </clipPath>
   </defs>
 
@@ -13,7 +13,7 @@
             <g id="flag">
               <path
                 d="M-6 10c0-5 8-5 8 0s8 5 8 0 8-5 8 0 8 5 8 0 8-5 8 0 8 5 8 0l8 20-8 20c-2 5-8 5-8 0s-8-5-8 0-8 5-8 0-8-5-8 0-8 5-8 0-8-5-8 0"
-                fill="#EF5350" />
+                fill="#ef5350" />
             </g>
             <use transform="translate(-48 0)" href="#flag" />
           </g>

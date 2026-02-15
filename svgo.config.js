@@ -3,13 +3,10 @@ module.exports = {
   floatPrecision: 1,
   plugins: [
     {
-      name: 'removeViewBox',
-      active: false
-    },
-    {
       name: 'removeAttrs',
       params: {
-        attrs: '(color|font|opacity|paint|stroke|text).*'
+        attrs:
+          '(color|data|fill-rule|font|maskUnits|opacity|paint|stroke|text).*'
       }
     },
     'convertStyleToAttrs',
@@ -17,7 +14,7 @@ module.exports = {
     'removeRasterImages',
     'sortAttrs',
     'removeStyleElement',
-    'removeScriptElement',
+    'removeScripts',
     'removeDoctype',
     'removeXMLProcInst',
     'removeComments',
